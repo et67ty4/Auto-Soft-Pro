@@ -1,0 +1,147 @@
+/* Styles for Extra Small Devices (phones, less than 576px) */
+@media (max-width: 768px) {
+  .container {
+    width: 85vw !important;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  section {
+    margin: 10vh auto;
+  }
+  .smal {
+    justify-items: center;
+  }
+  .global_btn {
+    font-size: 12px !important;
+  }
+  .rounded-mobile {
+    border-radius: 0px !important;
+  }
+  .hero > div {
+    padding: 0 !important;
+  }
+  .features {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .fcontent h2,
+  .fcontent p {
+    width: 100% !important;
+  }
+  .two {
+    padding: 0;
+  }
+  .bl {
+    flex-direction: column;
+    width: 108%;
+  }
+  .bl > div {
+    width: 100%;
+    margin: 20px 0 !important;
+  }
+  .qimg {
+    margin-top: 20px;
+  }
+  .hq {
+    font-size: 24px !important;
+  }
+  .d-sm-none {
+    display: none !important;
+  }
+.testi{
+    width: 240%;
+}
+  .toggle-slot {
+    font-size: 5px;
+  }
+  .head-hori,
+  .bodyprice {
+    padding: 15px 15px;
+  }
+
+  .forms h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .input {
+    flex-direction: column;
+  }
+  .form-control {
+    width: 50vw;
+    height: 50vw;
+  }
+  footer div {
+    width: 100%;
+  }
+  footer .fw100 {
+    width: 100% !important;
+  }
+  .b {
+    padding-right: 30px;
+  }
+  .bb{
+    display: none !important;
+  }
+  .dno{
+    display: none;
+  }
+
+  .mc {
+    flex-direction: row;
+  }
+  .mc {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/* Styles for Medium Devices (tablets, 768px and up) */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .navbar-expand-md .navbar-collapse {
+    width: 51%;
+}
+.nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+.container{
+  max-width: 940px;
+}
+.fcontent h2{
+  max-width: 80vw !important;
+}
+
+.smal {
+  flex-direction: column;
+  align-items: center;
+}
+
+.fend{
+  font-size: 12px !important;
+}
+}
+/* Styles for Large Devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Add your CSS styles here */
+}
+
+/* Styles for Extra Large Devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Add your CSS styles here */
+}
